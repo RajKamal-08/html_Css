@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <style>
     p{
-        color: green;
+        /* important by pass all specificity */
+        color: green !important;
         font-size: 20px;
     } 
-    .note{
+    /* class selector */
+    .note{ 
         color: red;
+
     }
+    /* id selector more priority greater than class */
      #intro{
         color: purple;
     } 
